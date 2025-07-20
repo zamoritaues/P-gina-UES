@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facultad de Ciencias Naturales y Matemáticas</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="contenedor-grid">
+      <!-- Cabecera -->
+      <header class="cabecera">
+        <div class="titulo-principal">
+          <h1>Facultad de Ciencias Naturales y Matemáticas</h1>
+          <h2>Licenciatura en Informática Educativa</h2>
+        </div>
+        <img
+          src="MINERVA.jpg"
+          alt="Estatua de Minerva, símbolo de la Facultad"
+          class="logo-facultad"
+        />
+      </header>
+
+      <!-- Barra de navegación -->
+<nav class="navegacion">
+  <ul class="menu-flex">
+    <li><a href="https://www.ues.edu.sv/" target="_blank">Inicio</a></li>
+    <li><a href="https://academica.ues.edu.sv/estudiantes/planes" target="_blank">Programas</a></li>
+    <li><a href="https://eel.ues.edu.sv/ingreso/index/categoria/301" target="_blank">Admisiones</a></li>
+    <li><a href="https://www.ues.edu.sv/investigacion/" target="_blank">Investigación</a></li>
+    <li><a href="https://www.ues.edu.sv/universidad/directorio/" target="_blank">Contacto</a></li>
+  </ul>
+</nav>
+
+      <!-- Contenido principal -->
+      <main class="contenido-principal">
+        <section class="informacion-alumno">
+          <h2>Información del Alumno</h2>
+          <div class="datos-alumno">
+            <p>
+              <strong>Nombre:</strong> José Eduardo Mauricio Zamora González
+            </p>
+            <p><strong>Carnet:</strong> ZG21002</p>
+            <p><strong>Curso:</strong> Básico de HTML y CSS</p>
+            <p><strong>Módulo:</strong> III - Diseño Responsivo</p>
+          </div>
+        </section>
+
+        <section class="descripcion-curso">
+          <h2>Descripción del Curso</h2>
+          <p>
+            El objetivo de este curso es comprender los fundamentos de HTML como
+            lenguaje de marcado, identificando su estructura básica, principales
+            etiquetas y su función en la construcción de páginas web, aplicando
+            los conocimientos en ejercicios prácticos usando Visual Studio Code
+            y codepen.io. En este módulo nos enfocamos en el diseño responsivo
+            usando Flexbox y Grid.
+          </p>
+          <a
+            href="https://campus.ues.edu.sv/login/index.php"
+            target="_blank"
+            class="boton-enlace"
+            >Acceder al Campus Virtual</a
+          >
+        </section>
+
+        <section class="seccion-destacada">
+          <h2>Nuestros Programas Académicos</h2>
+          <div class="tarjetas-flex">
+            <article class="tarjeta">
+    <img src="matematicas.jpg" alt="Programa de Matemáticas">
+    <h3>Lic. en Matemáticas</h3>
+    <p>Formación en matemáticas puras y aplicadas con enfoque en investigación.</p>
+    <a href="https://academica.ues.edu.sv/estudiantes/tabla-plan-de-estudio?carrera=L10940&plan=2003&nombre=Licenciatura%20en%20Matem%C3%A1tica&nota=6.00&cum=7.00&obligatorias=33&modalidad=PR&uv=160&social=500&electivas=4&tipo=Licenciatura&grado=GRADO" 
+       class="boton-tarjeta" 
+       target="_blank">
+       Más información
+    </a>
+</article>
+
+            <article class="tarjeta">
+              <img  src="informatica.jpg" alt="Programa de Informática">
+              <h3>Lic. en Informática Educativa</h3>
+              <p>Desarrollo de soluciones tecnológicas para entornos educativos.
+              <a href="https://distancia.ues.edu.sv/educacion-distancia" 
+              class="boton-tarjeta"
+              target="_blank">
+              Más información
+            </a>
+            </article>
+
+            <article class="tarjeta">
+              <img src="biologia.png" alt="Programa de Biología" />
+              <h3>Lic. en Biología</h3>
+              <p>
+                Estudio de los seres vivos y sus interacciones con el medio
+                ambiente.
+              </p>
+              <a href="https://academica.ues.edu.sv/estudiantes/tabla-plan-de-estudio?carrera=L10944&plan=2003&nombre=Licenciatura%20en%20Biolog%C3%ADa&nota=6.00&cum=7.00&obligatorias=35&modalidad=PR&uv=163&social=500&electivas=0&tipo=Licenciatura&grado=GRADO"
+              class="boton-tarjeta"
+              target="_blank">
+              Más información
+            </a>
+            </article>
+          </div>
+        </section>
+
+        <section class="video-presentacion">
+          <h2>Conoce nuestra Facultad</h2>
+          <div class="contenedor-video">
+            <video controls>
+              <source src="facultad.mp4" type="video/mp4" />
+              Tu navegador no soporta el elemento de video.
+            </video>
+          </div>
+        </section>
+      </main>
+
+      <!-- Barra lateral -->
+      <aside class="barra-lateral">
+        <h2>Noticias Recientes</h2>
+        <div class="noticia">
+          <h3>Convocatoria a becas 2025</h3>
+          <p>Abierta la convocatoria para becas de excelencia académica.</p>
+        </div>
+        <div class="noticia">
+          <h3>Congreso Internacional</h3>
+          <p>
+            Participa en nuestro congreso de ciencias e innovación educativa.
+          </p>
+        </div>
+        <div class="noticia">
+          <h3>Talleres de verano</h3>
+          <p>Inscríbete en nuestros talleres de programación y robótica.</p>
+        </div>
+      </aside>
+
+      <!-- Formulario de contacto -->
+      <section class="formulario-contacto" id="formulario-contacto">
+        <h2>Formulario de contacto</h2>
+        <form action="#" method="POST">
+          <div class="grupo-formulario">
+            <label for="nombre">Nombre completo:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ej: José Perez"
+              required
+            />
+          </div>
+
+          <div class="grupo-formulario">
+            <label for="email">Correo electrónico:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="ejemplo@ues.edu.sv"
+              required
+            />
+          </div>
+
+          <div class="grupo-formulario">
+            <label>Género:</label>
+            <div class="opciones-genero">
+              <label
+                ><input type="radio" name="genero" value="masculino" />
+                Masculino</label
+              >
+              <label
+                ><input type="radio" name="genero" value="femenino" />
+                Femenino</label
+              >
+              <label
+                ><input type="radio" name="genero" value="otro" /> Otro</label
+              >
+            </div>
+          </div>
+
+          <div class="grupo-formulario">
+            <label>
+              <input type="checkbox" name="newsletter" checked />
+              Deseo recibir información de la facultad
+            </label>
+          </div>
+
+          <div class="grupo-formulario">
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="4"
+              placeholder="Escribe tus consultas o comentarios aquí..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="boton-enviar">Enviar datos</button>
+        </form>
+      </section>
+
+      <!-- Pie de página -->
+      <footer class="pie-pagina">
+        <div class="info-contacto">
+          <h3>Contacto</h3>
+          <p>Email: facultad@ues.edu.sv</p>
+          <p>Teléfono: +503 2222-2222</p>
+        </div>
+        <div class="derechos-autor">
+          <p>&copy; 2025 Facultad de Ciencias Naturales y Matemáticas</p>
+          <p>Todos los derechos reservados</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
